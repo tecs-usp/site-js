@@ -1,4 +1,6 @@
+import { text } from "stream/consumers";
 import type { Config } from "tailwindcss";
+import { DEFAULT_CIPHERS } from "tls";
 
 const config: Config = {
     darkMode: ["class"],
@@ -40,6 +42,23 @@ const config: Config = {
   				DEFAULT: 'hsl(var(--destructive))',
   				foreground: 'hsl(var(--destructive-foreground))'
   			},
+			tecs: {
+				textprimary: {
+					DEFAULT: '#333333',
+				},
+				textsecondary: {	
+					DEFAULT: '#999999',
+				},
+				primary: {
+					DEFAULT: "#64C4D2",
+				},
+				secondary: {
+					DEFAULT: "#1094AB",
+				},
+				alternative: {
+					DEFAULT: "#FCB421",
+				}
+			},
   			border: 'hsl(var(--border))',
   			input: 'hsl(var(--input))',
   			ring: 'hsl(var(--ring))',
