@@ -16,7 +16,7 @@ export const Header = () => {
     ];
 
     return (
-        <div className="fixed flex flex-row min-h-[120px] items-center justify-between w-screen min-w-[320px] w-screen lg:w-screen px-6 bg-gradient-to-r from-tecs-secondary to-tecs-primary z-10">
+        <div className="fixed flex flex-row min-h-[120px] items-center justify-between w-screen min-w-[320px] w-screen lg:w-screen px-6 bg-gradient-to-r from-tecs-secondary to-tecs-primary z-30">
 
             <img className="h-[90px]" src="/logos/logo_tecs_extenso.svg" alt="Logo do Tecs" />
 
