@@ -30,11 +30,12 @@ const CarouselCard = ({
         backgroundPosition: "center",
       }}
     >
-      <div className="bg-[#090c36] bg-opacity-50 h-screen w-screen flex flex-col items-center justify-center border-none pt-[2rem] p-0 m-0 text-left">
-        <div className="flex flex-col items-start ml-[3rem] mr-[1.2rem] text-[1.5rem] font-thin">
-          <h2 className="font-bold text-white text-[2rem]">{title}</h2>
-          <h2 className="text-[2.5rem] mt-[-0.5rem] mb-4 text-white font-bold">{title2}</h2>
-          <p className="text-white text-left text-[1.2rem]">{description}</p>
+      <div className="bg-[#090c36] bg-opacity-50 h-screen w-screen flex flex-col items-center justify-center border-none pt-[6rem] p-0 m-0 text-left      ">
+        <div className="flex flex-col items-start ml-[2rem] mr-[1.2rem] text-[1.5rem] font-thin md:max-w-[580px] 
+        ">
+          <h2 className="font-bold text-white text-[1.5rem]">{title}</h2>
+          <h2 className="text-[2rem] mt-[-0.5rem] mb-4 text-white font-bold">{title2}</h2>
+          <p className="text-white text-left text-[1rem]">{description}</p>
           <Button href="/sobre" className="my-8 text-tecs-textprimary bg-none bg-white hover:text-white w-[10rem]">
             SAIBA MAIS
           </Button>
@@ -74,8 +75,8 @@ export const CarouselDemo = () => {
   ];
 
   return (
-    <div className="flex flex-col min-h-screen w-full bg-pink-200 items-center justify-center overflow-x-hidden m-0 p-0">
-      <Carousel className="bg-tecs-secondary h-screen w-screen border-0 p-0 m-0">
+    <div className="flex flex-col min-h-screen w-full items-center justify-center overflow-x-hidden m-0 p-0">
+      <Carousel className="bg-tecs-secondary h-screen w-screen border-0 p-0 m-0 overflow-hidden">
         <CarouselContent>
           {cards.map((card, index) => (
             <CarouselItem key={index}>
