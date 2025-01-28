@@ -3,7 +3,7 @@ import { NavBar } from "./nav-bar";
 import { Header } from "@/components/home/header";
 import { Presentation } from "@/components/home/presentation";
 import { CarouselDemo } from "@/components/home/carousel/carousel";
-// import Carousel from "@/components/home/carousel/card";
+import { Projects } from "@/components/home/projects";
 
 export default function Home() {
   return (
@@ -11,8 +11,8 @@ export default function Home() {
         <Header />
       <div className="flex flex-col justify-start items-center w-full">
         <Presentation />
-        {/* <Carousel /> */}
         <CarouselDemo />
+        <Projects />
       </div>
     </main>
   );
