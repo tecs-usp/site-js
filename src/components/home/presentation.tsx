@@ -15,7 +15,7 @@ export const Presentation = () => {
                 <p className="mb-[1rem] md:indent-8"> O <strong>Tecs |  Grupo de comput{"{"}ação social{"}"}</strong> da USP   é um grupo de extensão universitária iniciado por alunes do Bacharelado em Ciência da Computação do IME-USP, focado no impacto social da computação e da tecnologia. Ele é parte do TechShift, uma aliança global de organizações estudantis com esse mesmo propósito.</p>
                 <p className="md:indent-8">O grupo é constituído por três frentes de  desenvolvimento — educação, ética e serviços. Elas visam, respectivamente, promover a educação tecnológica igualitária da população por meio de cursos, oficinas e ações promovidas pelo grupo; unir esforços para formar uma sociedade e profissionais éticos e conscientes sobre o uso da  tecnologia; e estimular alunos a usarem a tecnologia para solucionar problemas da  comunidade local.</p>
             </div>
-            <Button href="/sobre" className="my-6">PARTICIPE</Button>
+            <Button href="/sobre" className="my-6 text-white">PARTICIPE</Button>
         </div>
     )
 }
