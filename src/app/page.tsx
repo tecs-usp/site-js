@@ -4,6 +4,8 @@ import { Header } from "@/components/home/header";
 import { Presentation } from "@/components/home/presentation";
 import { CarouselDemo } from "@/components/home/carousel/carousel";
 import { Projects } from "@/components/home/projects";
+import { Apoio } from "@/components/home/apoio";
+import { Contato } from "@/components/home/contact";
 
 export default function Home() {
   return (
@@ -13,6 +15,8 @@ export default function Home() {
         <Presentation />
         <CarouselDemo />
         <Projects />
+        <Apoio />
+        <Contato />
       </div>
     </main>
   );

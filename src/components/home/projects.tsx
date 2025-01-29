@@ -22,7 +22,7 @@ const ProjectFooter = () => (
 
 export const Projects = () => {
     return (
-        <div className="flex flex-col items-center justify-center min-h-screen w-screen pt-[80px] bg-gradient-to-r from-tecs-secondary to-tecs-primary px-8">
+        <div className="flex flex-col items-center justify-center min-h-screen w-full pt-[80px] bg-gradient-to-r from-tecs-secondary to-tecs-primary overflow-hidden px-6">
             <ProjectHeader />
             <div className="transition-transform duration-300 hover:transform hover:rotate-z-4 hover:scale-105">
                 <ProjectCard />
