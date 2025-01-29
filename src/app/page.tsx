@@ -6,6 +6,7 @@ import { CarouselDemo } from "@/components/home/carousel/carousel";
 import { Projects } from "@/components/home/projects";
 import { Apoio } from "@/components/home/apoio";
 import { Contato } from "@/components/home/contact";
+import Footer from "@/components/home/footer";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Projects />
         <Apoio />
         <Contato />
+        <Footer />
       </div>
     </main>
   );
