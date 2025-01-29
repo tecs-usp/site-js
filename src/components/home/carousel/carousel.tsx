@@ -75,7 +75,7 @@ export const CarouselDemo = () => {
   ];
 
   return (
-    <div className="flex flex-col min-h-screen w-full items-center justify-center overflow-x-hidden m-0 p-0">
+    <div id="carrossel" className="flex flex-col min-h-screen w-full items-center justify-center overflow-x-hidden m-0 p-0">
       <Carousel className="bg-tecs-secondary h-screen w-screen border-0 p-0 m-0 overflow-hidden">
         <CarouselContent>
           {cards.map((card, index) => (

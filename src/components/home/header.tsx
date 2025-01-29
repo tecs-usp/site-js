@@ -9,10 +9,10 @@ export const Header = () => {
 
     const bc_sections = [
         { label: 'INÍCIO', href: '#home' },
-        { label: 'CONTEÚDO', href: '#presentation' },
-        { label: 'PROJETOS', href: '#projetos' },
-        { label: 'APOIADORES', href: '#participation' },
-        { label: 'CONTATO', href: '#bcfaq' }
+        { label: 'CONTEÚDO', href: '#carrossel' },
+        { label: 'PROJETOS', href: '#projects' },
+        { label: 'APOIADORES', href: '#apoio' },
+        { label: 'CONTATO', href: '#contato' }
     ];
 
     return (

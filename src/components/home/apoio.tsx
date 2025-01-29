@@ -1,6 +1,6 @@
 export const Apoio = () => {
     return (
-        <div className="flex flex-col items-center justify-center w-full min-h-screen bg-white ">
+        <div id="apoio" className="flex flex-col items-center justify-center w-full min-h-screen bg-white ">
             <h3 className="text-[2rem] font-bold text-tecs-secondary">APOIOS</h3>
             <p>Conheça nossos apoiadores:</p>
 

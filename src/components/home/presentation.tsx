@@ -4,7 +4,7 @@ import Button from "@/components/home/button"
 
 export const Presentation = () => {
     return (
-        <div className="flex flex-col  lg:flex-row items-center justify-center min-h-screen md:max-w-[680px] lg:max-w-[1120px] pt-[110px]">
+        <div id="home" className="flex flex-col  lg:flex-row items-center justify-center min-h-screen md:max-w-[680px] lg:max-w-[1120px] pt-[110px]">
             <div className="absolute inset-0 flex justify-center items-center overflow-hidden">
                 <img src="/logos/mapa_tecs.png" alt="" className="z-[-1] opacity-10 w-full h-full object-cover"/>
             </div>
