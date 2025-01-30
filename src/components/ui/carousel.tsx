@@ -205,9 +205,9 @@ const CarouselPrevious = React.forwardRef<
       variant={variant}
       size={size}
       className={cn(
-        "absolute  h-8 w-8 rounded-full",
+        "absolute h-8 w-8 rounded-full",
         orientation === "horizontal"
-          ? "-left-12 top-1/2 -translate-y-1/2"
+          ? "md:left-[3rem] left-[1.5rem] md:top-1/2 top-[40rem] -translate-y-1/2 z-30"
           : "-top-12 left-1/2 -translate-x-1/2 rotate-90",
         className
       )}
@@ -236,7 +236,7 @@ const CarouselNext = React.forwardRef<
       className={cn(
         "absolute h-8 w-8 rounded-full",
         orientation === "horizontal"
-          ? "-right-12 top-1/2 -translate-y-1/2"
+          ? "md:right-[3rem] right-[1.5rem] md:top-1/2 top-[40rem] -translate-y-1/2 z-30"
           : "-bottom-12 left-1/2 -translate-x-1/2 rotate-90",
         className
       )}
