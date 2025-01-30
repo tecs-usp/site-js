@@ -8,7 +8,7 @@ export const Header = () => {
     const [activeSection, setActiveSection] = useState<string>('');
 
     const estilo_nav_item = "min-w-[312px] text-tecs-secondary hover:bg-gradient-to-r from-tecs-secondary to-tecs-primary hover:text-white my-2 font-bold py-2 text-[0.9rem] rounded-full ";
-    const estilo_nav_item_desk = "hover:bg-tecs-alternative font-bold px-6 m-2 py-2 text-[1rem] rounded-[20px] transition-all";
+    const estilo_nav_item_desk = "hover:bg-tecs-alternative font-bold px-4 m-2 py-2 text-[1rem] rounded-[20px] transition-all";
 
     const bc_sections = [
         { label: 'INÍCIO', href: '#home' },
@@ -54,7 +54,9 @@ export const Header = () => {
                         <ul>
                             {bc_sections.map((section, index) => (
                                 <li key={index} className={`${estilo_nav_item} ${activeSection === section.href ? 'bg-tecs-alternative text-white' : ''}`}>
-                                    <a href={section.href}>{section.label}</a>
+                                    <a className="w-full px-[100px] py-[8px]" href={section.href}>
+                                        {section.label}
+                                    </a>
                                 </li>
                             ))}
                         </ul>
@@ -64,7 +66,7 @@ export const Header = () => {
             <ul className="hidden lg:flex text-white flex-row items-center justify-center">
                 {bc_sections.map((section, index) => (
                     <li key={index} className={`${estilo_nav_item_desk} ${activeSection === section.href ? 'bg-tecs-alternative text-white' : ''}`}>
-                        <a href={section.href}>{section.label}</a>
+                        <a className="py-2 px-2" href={section.href}>{section.label}</a>
                     </li>
                 ))}
             </ul>

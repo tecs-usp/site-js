@@ -2,7 +2,7 @@ import React from 'react';
 
 const ContactIcon = ({ src, alt, label }: { src: string, alt: string, label: string }) => {
     return (
-        <div className="flex flex-col items-center justify-center w-[6rem] h-[5rem] text-[0.7rem] text-white font-bold gap-1 hover:border hover:border-tecs-primary hover:border-solid hover:border-[2px] hover:rounded-lg hover:cursor-pointer">
+        <div className="flex flex-col items-center justify-center w-[6rem] h-[5rem] text-[0.7rem] text-white font-bold gap-1 transform transition-transform duration-200 hover:scale-125 hover:rounded-lg hover:cursor-pointer">
             <div className="flex justify-center items-center bg-white w-[3rem] h-[3rem] rounded-full">
                 <img src={src} alt={alt} />
             </div>
