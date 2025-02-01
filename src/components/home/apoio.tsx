@@ -1,7 +1,7 @@
 export const Apoio = () => {
     return (
         <div id="apoio" className="flex flex-col items-center justify-center w-full min-h-screen bg-white ">
-            <h3 className="text-[2rem] font-bold text-tecs-secondary">APOIOS</h3>
+            <h3 className="text-[2rem] font-bold text-tecs-secondary">APOIO</h3>
             <p>Conheça nossos apoiadores:</p>
 
             <div className="flex flex-wrap justify-center items-center gap-[2.5rem] md:gap-[4rem] max-w-[35rem] px-6 py-6 md:py-[4rem]">

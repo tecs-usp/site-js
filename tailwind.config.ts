@@ -11,6 +11,9 @@ const config: Config = {
   ],
   theme: {
   	extend: {
+		fontFamily: {
+			'titilium': 'Titillium Web',
+		},
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
