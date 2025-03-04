@@ -1,5 +1,3 @@
-import { HeroSection } from "./hero-section";
-import { NavBar } from "./nav-bar";
 import { Header } from "@/components/home/header";
 import { Presentation } from "@/components/home/presentation";
 import { CarouselDemo } from "@/components/home/carousel/carousel";
